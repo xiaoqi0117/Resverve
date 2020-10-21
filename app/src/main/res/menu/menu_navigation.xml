@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_loan"
+        android:icon="@drawable/loan_list"
+        android:title="@string/loan" />
+
+    <item
+        android:id="@+id/navigation_repayment"
+        android:icon="@drawable/payment_list"
+        android:title="@string/repayment" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile_list"
+        android:title="@string/profile" />
+</menu>

@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">InstantLoan</string>
+
+    <string name="loan">Loan</string>
+    <string name="repayment">Repayment</string>
+    <string name="profile">Profile</string>
+
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="wait_for_verify_codeno">Resend SMS</string>
+    <string name="facebook_app_id">372958460421479</string>
+    <string name="fb_login_protocol_scheme">fb372958460421479</string>
+
+    <!--login-->
+    <string name="phone_hint">please input phone number</string>
+    <string name="code_hint">The OTP Code</string>
+    <string name="sms_text">Get OTP Code</string>
+    <string name="login_bt_text">Login To Get Loans</string>
+    <string name="login_agreement_desc">I agree to</string>
+    <string name="login_agreement_text">《TERMS AND CONDITIONS,PRIVACY POLICY》</string>
+    <string name="login_bar">Login</string>
+    <string name="phone_tips">please input phone number</string>
+    <string name="login_check_content">Please check the content</string>
+
+    <!--account-->
+    <string name="account_tips">Not logged in</string>
+    <string name="loan_record">Loan record</string>
+    <string name="repayment_plan">Repayment plan</string>
+    <string name="renew_loan">Renew loan</string>
+    <string name="account_personal">Personal application</string>
+    <string name="feed_back">Feedback</string>
+    <string name="setting">Setting</string>
+    <string name="account_message">Message center</string>
+
+    <string name="account_email">Customer service Email:indiaramanadutta@gmail.com</string>
+    <string name="renew_tips">You have no loan record</string>
+
+    <!--main-->
+    <string name="main_title">Rocket Loan</string>
+    <string name="est_amount">Estimated amount</string>
+    <string name="rate">Interest rate as low as 0.08% per day</string>
+    <string name="main_bt">GET AMOUNT NOW</string>
+    <string name="main_tips">Tips on loan steps</string>
+    <string name="application">Application</string>
+    <string name="quota">Get quota</string>
+    <string name="reach_account">Reach account</string>
+    <string name="friendly">Friendly cooperation and sincere service</string>
+
+    <!--CreditCertification-->
+    <string name="credit_certification_title">Credit certification</string>
+    <string name="application_materials">Application materials</string>
+    <string name="basic_authentication">Basic authentication</string>
+    <string name="basic_desc">Correct basic personal infor...</string>
+    <string name="undone">Undone</string>
+    <string name="identity_authentication">Identity authentication</string>
+    <string name="identity_desc">Correct basic personal info...</string>
+    <string name="credit_certification_decs">To ensure your privacy, it is encrypted and protected.</string>
+    <string name="credit_certification_next">NEXT STEP</string>
+    <string name="completed">Completed</string>
+    <string name="information_tips">Please enter information</string>
+
+
+    <!-- Basic authentication -->
+    <string name="basic_authentication_title">Basic authentication</string>
+    <string name="basic_tips">Please fill in the valid basic information carefully</string>
+    <string name="fist_name">First_name</string>
+    <string name="fist_name_hint">first name</string>
+    <string name="last_name">Last_name</string>
+    <string name="last_name_hint">last name</string>
+    <string name="gender">Gender</string>
+    <string name="gender_hint">Please select gender</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_hint">DD/MM/YY(as per PAN)</string>
+    <string name="aadhaar_number">NIN Number</string>
+    <string name="aadhar_number_hint">Please enter your NIN Number</string>
+    <string name="pan_card_number">BVN Number</string>
+    <string name="pan_card_number_hint">Please enter your BVN Number</string>
+    <string name="pin_code">PIN Code</string>
+    <string name="pin_code_hint">Please PIN Code</string>
+    <string name="email">E-mail</string>
+    <string name="loan_purpose">Loan Purpose</string>
+    <string name="loan_purpose_hint">Please select purpose</string>
+    <string name="submit">Submit</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="reason1">Buying car consumption</string>
+    <string name="reason2">Education expenditure</string>
+    <string name="reason3">Home appliances</string>
+    <string name="reason4">House renovation</string>
+    <string name="reason5">Insurance installments</string>
+    <string name="reason6">Medical care</string>
+    <string name="reason7">Renting installments</string>
+    <string name="reason8">Tourism consumption</string>
+    <string name="reason9">Wedding Service</string>
+    <string name="reason10">3C digital</string>
+    <string name="reason11">Other</string>
+    <string name="check_content">Please check the content</string>
+
+    <!-- PANCard-->
+    <string name="permissions_desc">The permissions to be applied for are permissions that the program must rely on</string>
+    <string name="understand">I understand</string>
+    <string name="permissions_message">You need to go to the application settings to manually open permissions</string>
+    <string name="permissions_tips">You have denied the following permissions</string>
+    <string name="pan_card_title">AADHAAR Card</string>
+    <string name="pan_card_desc">Please upload a front and back photos of your PAN card</string>
+    <string name="upload_pan">Upload PAN card front photo</string>
+    <string name="next">Next</string>
+
+    <!-- PhotoCard-->
+    <string name="photo_title">AADHAAR Card</string>
+    <string name="photo_desc">Please upload a front and back photos of your AADAAR card</string>
+
+    <!-- message-->
+    <string name="message_title">Message center</string>
+    <string name="no_news">No news at all</string>
+
+    <!--Repayment plan-->
+    <string name="repayment_plan_title">Repayment plan</string>
+    <string name="repayment_message">You have no application records</string>
+
+    <!--Setting-->
+    <string name="setting_title">Setting</string>
+    <string name="push">Push notification</string>
+    <string name="updates">Check for updates</string>
+    <string name="about_us">About us</string>
+    <string name="login_out">Logout</string>
+
+    <!--about as-->
+    <string name="about_as_title">About us</string>
+
+    <!--agreement-->
+    <string name="agreement">Agreement</string>
+
+    <!--Authorize-->
+    <string name="authorize">Authorize</string>
+    <string name="authorize_title">How to modify the authorization</string>
+    <string name="authorize_content">How to modify the authorizationIf you use a mobile terminal for access, you can check the access status of personal information item by item in the phone SettingsPermission Management, and you can decide to turn these permissions on or off. By enabling these permissions, you authorize us to collect and use these personal information to achieve the above functions. If you close the permissions, these authorizations will be cancelled and we will no longer continue to collect and use your personal information.At the same time, the above functions corresponding to these authorizations cannot be provided to you.Your decision to close the authority will not affect the processing of personal information previously performed under your authorization. If you have any questions,please send an email to service@instantls.com forfeedback.We will contact you in time.</string>
+
+    <!--Congratulate -->
+    <string name="congratulate">Congratulate</string>
+    <string name="congratulate_title">Successfully obtained SVIP loan authority</string>
+    <string name="vip_desc">Please choose the loan amount and loan term according to needs</string>
+    <string name="quick_review">Quick review</string>
+    <string name="high_quota">High quota</string>
+    <string name="high_pass_rate">High pass rate</string>
+    <string name="fiexible_products">Fiexible products</string>
+    <string name="three_months">3 months</string>
+    <string name="six_months">6 months</string>
+    <string name="twelve_months">12 months</string>
+    <string name="fee">Fee</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="policy">《TERMS AND CONDITIONS,PRIVACY POLICY》</string>
+
+    <!-- credit -->
+    <string name="limit">Your credit limit</string>
+    <string name="loanable_amount">Loanable amount</string>
+    <string name="credit_desc">Option to repay in 12 installments</string>
+    <string name="credit_content">After verification, you can freely choose the loan
+        amount and term within the limit. </string>
+    <string name="bt_loan_now">Loan Now</string>
+
+    <!-- Feedback-->
+    <string name="feed_back_title">Feedback</string>
+    <string name="feed_back_hint">Please describe your problem or suggestion in
+        detail, we will follow up and solve as soon as
+        possible.</string>
+    <string name="email_hint">Your email</string>
+
+    <!--Loan record -->
+    <string name="record_title">Loan record</string>
+    <string name="record_desc">You have no application records</string>
+    <string name="processing">Processing</string>
+
+    <!--Matching quota -->
+    <string name="matching_title">Matching quota</string>
+    <string name="matching_progress">Matching amount in progress...</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="home">Home</string>
+
+    <string name="me">Me</string>
+
+    <string name="payment_error">Payment failed</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main"
+            app:startDestination="@id/navigation_loan"
+>
+    <fragment
+            android:id="@+id/navigation_loan"
+            android:name="com.loantec.instantloan.fragment.LoanFragment"
+            tools:layout="@layout/fragment_loan" />
+
+    <fragment
+            android:id="@+id/navigation_repayment"
+            android:name="com.loantec.instantloan.fragment.RepaymentFragment"
+            tools:layout="@layout/fragment_repayment" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.loantec.instantloan.fragment.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
