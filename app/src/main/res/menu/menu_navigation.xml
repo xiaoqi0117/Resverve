@@ -6,11 +6,6 @@
         android:title="@string/loan" />
 
     <item
-        android:id="@+id/navigation_repayment"
-        android:icon="@drawable/payment_list"
-        android:title="@string/repayment" />
-
-    <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/profile_list"
         android:title="@string/profile" />

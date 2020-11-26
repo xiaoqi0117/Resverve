@@ -28,7 +28,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="32dp"
-            android:background="#2286D7F3"
+            android:background="#F5F5F5"
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -60,7 +60,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="16dp"
                 android:text="@string/fist_name"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="13sp"
 
                 />
@@ -77,8 +77,8 @@
                 android:gravity="center_vertical|end"
                 android:hint="first name"
                 android:maxLines="1"
-                android:textColorHint="#FFFFFF"
-                android:textColor="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp" />
 
             <View
@@ -103,7 +103,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="16dp"
                 android:text="@string/last_name"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="13sp"
 
 
@@ -121,14 +121,57 @@
                 android:gravity="center_vertical|end"
                 android:hint="@string/last_name_hint"
                 android:maxLines="1"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp" />
 
         </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+        >
 
+            <TextView
+                android:id="@+id/tv_meail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:text="@string/email"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
+                android:textSize="13sp"
+
+
+            />
+
+            <EditText
+                android:id="@+id/et_meail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/tv_meail"
+                android:background="@null"
+                android:gravity="center_vertical|end"
+                android:hint="xxx@xxx.com"
+                android:maxLines="1"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:background="#E5E5E5" />
+
+        </RelativeLayout>
         <View
-            android:background="#88454856"
+            android:background="#F5F5F5"
             android:layout_width="match_parent"
             android:layout_height="15dp"/>
 
@@ -145,7 +188,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="16dp"
                 android:text="@string/gender"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="13sp" />
 
             <TextView
@@ -157,8 +200,8 @@
                 android:layout_toStartOf="@+id/iv_gender"
                 android:gravity="end"
                 android:hint="@string/gender_hint"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp" />
 
 
@@ -192,8 +235,8 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="16dp"
                 android:text="@string/birthday"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp"
 
 
@@ -208,8 +251,8 @@
                 android:layout_toStartOf="@+id/iv_date"
                 android:gravity="end"
                 android:hint="@string/birthday_hint"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp" />
 
 
@@ -246,8 +289,8 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="16dp"
                 android:text="@string/aadhaar_number"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp"
 
 
@@ -266,8 +309,8 @@
                 android:gravity="center_vertical|end"
                 android:hint="@string/aadhar_number_hint"
                 android:maxLines="1"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp"
 
                 />
@@ -296,8 +339,8 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="16dp"
                 android:text="@string/pan_card_number"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp"
 
                 />
@@ -314,8 +357,8 @@
                 android:gravity="center_vertical|end"
                 android:hint="@string/pan_card_number_hint"
                 android:maxLines="1"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp" />
 
 
@@ -341,8 +384,8 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="16dp"
                 android:text="@string/pin_code"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp"
 
 
@@ -361,8 +404,8 @@
                 android:hint="@string/pin_code"
                 android:inputType="number"
                 android:maxLines="1"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp"
 
                 />
@@ -378,50 +421,7 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-           >
 
-            <TextView
-                android:id="@+id/tv_meail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="16dp"
-                android:text="@string/email"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
-                android:textSize="13sp"
-
-
-                />
-
-            <EditText
-                android:id="@+id/et_meail"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="16dp"
-                android:layout_toEndOf="@+id/tv_meail"
-                android:background="@null"
-                android:gravity="center_vertical|end"
-                android:hint="xxx@xxx.com"
-                android:maxLines="1"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
-                android:textSize="13sp" />
-
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="16dp"
-                android:background="#E5E5E5" />
-
-        </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/rl_purpose"
@@ -435,8 +435,8 @@
                 android:layout_centerVertical="true"
                 android:layout_marginStart="16dp"
                 android:text="@string/loan_purpose"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp" />
 
             <TextView
@@ -448,8 +448,8 @@
                 android:layout_toStartOf="@+id/iv_purpose"
                 android:gravity="end"
                 android:hint="@string/loan_purpose_hint"
-                android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#E5E5E5"
+                android:textColor="#000000"
                 android:textSize="13sp" />
 
 

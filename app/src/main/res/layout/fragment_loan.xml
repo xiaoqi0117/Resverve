@@ -7,33 +7,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_marginTop="70dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Maxium Loan Amoount Upto"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
-        />
 
-    <TextView
-        android:id="@+id/tv_amount"
-        android:layout_marginTop="10dp"
+    <ImageView
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#ffffff"
-        android:textSize="60sp"
-        />
-    
+        android:src="@mipmap/home"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon3"/>
+
+    </LinearLayout>
     <LinearLayout
         android:background="@drawable/shape_main_item"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:layout_height="70dp">
+        android:layout_height="50dp">
 
         <ImageView
             android:layout_marginLeft="24dp"
@@ -48,25 +62,22 @@
             android:text="Submit info"
             android:textColor="#ffffffff"
             android:textSize="18sp"
-            android:shadowColor="#1f929292"
-
-            />
+            android:shadowColor="#10B09B"/>
 
     </LinearLayout>
-
     <LinearLayout
         android:background="@drawable/shape_main_item"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:layout_height="70dp">
+        android:layout_height="50dp">
 
         <ImageView
             android:layout_marginLeft="24dp"
-            android:src="@mipmap/card"
+            android:src="@mipmap/login"
             android:layout_width="35dp"
             android:layout_height="28dp"/>
 
@@ -74,57 +85,51 @@
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Get Credit"
+            android:text="Wait a moment"
             android:textColor="#ffffffff"
             android:textSize="18sp"
-            android:shadowColor="#1f929292"
-
-            />
-
+            android:shadowColor="#10B09B"/>
     </LinearLayout>
-
-
     <LinearLayout
         android:background="@drawable/shape_main_item"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:layout_height="70dp">
+        android:layout_height="50dp">
 
         <ImageView
-            android:layout_marginLeft="24dp"
-            android:src="@mipmap/money"
             android:layout_width="35dp"
-            android:layout_height="28dp"/>
+            android:layout_height="28dp"
+            android:layout_marginLeft="24dp"
+            android:src="@mipmap/money"/>
 
         <TextView
-            android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:shadowColor="#10B09B"
             android:text="Get money"
             android:textColor="#ffffffff"
-            android:textSize="18sp"
-            android:shadowColor="#1f929292"
-
-            />
-
+            android:textSize="18sp"/>
     </LinearLayout>
+
 
 
     <Button
         android:id="@+id/bt_next"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/bt_bg"
         android:text="APPLY"
-        android:textColor="#ffffff"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
+
 
 
 </LinearLayout>

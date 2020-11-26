@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">InstantLoan</string>
+    <string name="app_name">Resverve Fund</string>
 
     <string name="loan">Loan</string>
     <string name="repayment">Repayment</string>
@@ -18,8 +18,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
 
     <string name="wait_for_verify_codeno">Resend SMS</string>
-    <string name="facebook_app_id">372958460421479</string>
-    <string name="fb_login_protocol_scheme">fb372958460421479</string>
+    <string name="facebook_app_id">369665474243982</string>
+    <string name="fb_login_protocol_scheme">fb369665474243982</string>
 
     <!--login-->
     <string name="phone_hint">please input phone number</string>

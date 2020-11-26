@@ -2,19 +2,19 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#1CC5BF</item>
+        <item name="colorPrimary">#10B09B</item>
         <item name="colorPrimaryDark">#2C2D36</item>
-        <item name="colorAccent">#1CC5BF</item>
+        <item name="colorAccent">#10B09B</item>
 
         <!-- 修改toolbar图标的颜色-->
-        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="android:textColorSecondary">#10B09B</item>
         <!--修改toolbar文字颜色-->
-        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorPrimary">#10B09B</item>
     </style>
 
     <style name="Navigation" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#1CC5BF</item>
+        <item name="colorPrimary">#10B09B</item>
         <item name="colorPrimaryDark">#32333E</item>
         <item name="colorAccent">#32333E</item>
 

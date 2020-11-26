@@ -10,7 +10,11 @@
         android:layout_centerInParent="true"
         android:background="@drawable/item_grey"
         android:layout_width="166dp"
-        android:layout_height="40dp">
+        android:layout_height="40dp"
+        android:topLeftRadius="18px"
+                 android:topRightRadius="18px"
+                 android:bottomRightRadius="18px"
+                 android:bottomLeftRadius="18px">
 
         <TextView
             android:id="@+id/tv_amount"

@@ -26,7 +26,7 @@
             android:layout_width="80dp"
             android:layout_height="28dp"
             android:text="guest"
-            android:textColor="#ffffffff"
+            android:textColor="#222222"
             android:textSize="20sp"
             />
 
@@ -46,7 +46,7 @@
 
         <ImageView
             android:layout_marginLeft="24dp"
-            android:src="@mipmap/ico_record"
+            android:src="@mipmap/record"
             android:layout_width="35dp"
             android:layout_height="28dp"/>
 
@@ -90,7 +90,7 @@
 
         <ImageView
             android:layout_marginLeft="24dp"
-            android:src="@mipmap/ico_profile"
+            android:src="@mipmap/my_profile"
             android:layout_width="35dp"
             android:layout_height="28dp"/>
 
@@ -136,7 +136,7 @@
 
         <ImageView
             android:layout_marginLeft="24dp"
-            android:src="@mipmap/ico_bank"
+            android:src="@mipmap/card"
             android:layout_width="35dp"
             android:layout_height="28dp"/>
 
@@ -168,69 +168,5 @@
 
     </LinearLayout>
 
-
-    <LinearLayout
-        android:visibility="gone"
-        android:background="@drawable/shape_main_item"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:layout_height="70dp">
-
-        <ImageView
-            android:layout_marginLeft="24dp"
-            android:src="@mipmap/ico_money"
-            android:layout_width="35dp"
-            android:layout_height="28dp"/>
-
-        <TextView
-            android:layout_marginLeft="15dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Setting"
-            android:textColor="#ffffffff"
-            android:textSize="18sp"
-            android:shadowColor="#1f929292"
-
-            />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_marginRight="24dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:src="@mipmap/next"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-        </RelativeLayout>
-
-
-    </LinearLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:gravity="center"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="30dp"
-            android:textColor="@android:color/white"
-            android:autoLink="all"
-            android:text="Customer service email: hellomorninghosptal@gmail.com" />
-    </RelativeLayout>
 
 </LinearLayout>

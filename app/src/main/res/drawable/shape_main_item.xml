@@ -3,9 +3,13 @@
     <item>
         <shape android:shape="rectangle">
             <gradient android:type="linear" android:useLevel="true"
-                android:startColor="#ff595d68"
-                android:endColor="#ff717580"
+                android:startColor="#10B09B"
+                android:endColor="#10B09B"
                 android:angle="180" />
+            <corners android:topLeftRadius="18px"
+                     android:topRightRadius="18px"
+            android:bottomRightRadius="18px"
+            android:bottomLeftRadius="18px"/>
             <item android:name="android:shadowColor">#1f929292</item>
             <item android:name="android:shadowDx">0</item>
             <item android:name="android:shadowDy">5</item>

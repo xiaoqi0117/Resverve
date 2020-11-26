@@ -6,17 +6,17 @@
 >
     <fragment
             android:id="@+id/navigation_loan"
-            android:name="com.loantec.instantloan.fragment.LoanFragment"
+            android:name="com.ngmango.keyga.fragment.LoanFragment"
             tools:layout="@layout/fragment_loan" />
 
     <fragment
             android:id="@+id/navigation_repayment"
-            android:name="com.loantec.instantloan.fragment.RepaymentFragment"
+            android:name="com.ngmango.keyga.fragment.RepaymentFragment"
             tools:layout="@layout/fragment_repayment" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.loantec.instantloan.fragment.ProfileFragment"
+        android:name="com.ngmango.keyga.fragment.ProfileFragment"
         tools:layout="@layout/fragment_profile" />
 
 </navigation>
